@@ -1,0 +1,114 @@
+22.06.2015 15:47:24
+[General]
+Project: C:\Ehsan Temp Folder\TFS\Change Management Tool\HIL Test Environment Change Management.lvproj
+Target: My Computer
+Build Specification: Create Registry
+OS: Windows NT 6.1
+
+[Open Top Level VIs]
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Files\Main Files\Create Registry.vi	18.06.2015 09:34:47
+
+
+[Source Files]
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\lvfile.llb\NI_FileType.lvlib	25.06.2014 18:15:50	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\LVLibp\NI_PackedLibraryUtility.lvlib	25.06.2014 11:15:46	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\VariantType.lvlib	25.06.2014 11:09:28	1.0.0.0
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Files\Support\ComposeTitleBarString.vi	18.06.2015 20:02:59	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Open File+.vi	25.06.2014 13:13:55	21
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\_oldvers\_oldvers.llb\compatReadText.vi	25.06.2014 13:13:53	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Read File+ (string).vi	25.06.2014 13:13:54	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Find First Error.vi	25.06.2014 13:13:36	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Close File+.vi	25.06.2014 13:13:36	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\DialogType.ctl	25.06.2014 12:58:22	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\event_ctls.llb\sizeaction.ctl	25.06.2014 16:47:03	45
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\event_ctls.llb\panelstate.ctl	25.06.2014 16:47:03	46
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\TDMSFileViewerLocalizedText.vi	25.06.2014 09:45:34	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\fileViewerConfigData.ctl	25.06.2014 09:45:34	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\status.vi	25.06.2014 09:45:34	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\express\express shared\ex_CorrectErrorChain.vi	25.06.2014 05:58:24	13
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\express\express input\FileDialogBlock.llb\subFile Dialog.vi	25.06.2014 13:13:36	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\lvfile.llb\FT_FileTypes.ctl	25.06.2014 13:11:48	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\lvfile.llb\LVFileType.ctl	25.06.2014 13:11:48	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	25.06.2014 13:11:48	99
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\lvfile.llb\Get File Type.vi	25.06.2014 13:11:47	93
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\lvfile.llb\Is File an LLB.vi	25.06.2014 13:11:49	74
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Application Directory.vi	25.06.2014 13:11:47	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\express\express output\DisplayMessageBlock.llb\subDisplayMessage.vi	25.06.2014 17:00:31	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\LVLibp\Get Exported File List.vi	25.06.2014 08:08:12	30
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\libraryn.llb\Check if File or Folder Exists.vi	25.06.2014 15:07:46	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\initHelpButtonVisibility.vi	25.06.2014 09:45:34	7
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\miscctls.llb\LVRowAndColumnUnsignedTypeDef.ctl	25.06.2014 16:47:03	1
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Clear Errors.vi	25.06.2014 15:07:11	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\Clear-68016.vi	25.06.2014 09:47:04	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\initFileContentsTree.vi	25.06.2014 09:47:04	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	25.06.2014 12:58:19	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\panelResize_tdms.vi	25.06.2014 09:47:04	60
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\InitFromConfiguration.vi	25.06.2014 09:47:04	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\TypedefInfo.ctl	25.06.2014 09:47:04	6
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\Private\GetRefnumInfoInternal.vi	25.06.2014 09:47:04	11
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\Type.ctl	25.06.2014 09:47:04	17
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\Private\MDTFlavorToTypeEnum.vi	25.06.2014 09:47:04	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\VariantDataType\GetTypeInfo.vi	25.06.2014 09:47:04	52
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\GetType.llb\Type Enum.ctl	25.06.2014 16:47:03	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\GetType.llb\VariantType to Type Code.vi	25.06.2014 16:47:04	62
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\GetType.llb\Get Type of Variant.vi	25.06.2014 16:47:03	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\ExtractSubstring.vi	25.06.2014 09:47:04	26
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\AsciiToInt.vi	25.06.2014 09:47:04	20
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\LogicalSort.vi	25.06.2014 09:47:04	114
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\formatPropertyList.vi	25.06.2014 09:47:04	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\InitScrollbarAndListBox.vi	25.06.2014 09:47:04	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\TDMSFileViewer_LaunchHelp.vi	25.06.2014 09:45:34	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\configureNumberOfValues.vi	25.06.2014 08:59:20	52
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\getNamesFromPath.vi	25.06.2014 09:47:04	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\ClearError.vi	25.06.2014 06:13:58	7
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\loadAndFormatValues.vi	25.06.2014 09:47:04	40
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\getChannelList.vi	25.06.2014 09:47:04	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\picture\picture.llb\Get Text Rect.vi	25.06.2014 15:24:00	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\setListBoxColumnWidths.vi	25.06.2014 09:45:34	25
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\initTabValues.vi	25.06.2014 09:47:04	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\LoadBufferForMultiListBoxAndFormat.vi	25.06.2014 09:47:04	11
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\UpdateBufferForMultiListBoxIfNecessary.vi	25.06.2014 09:47:04	28
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\event_ctls.llb\eventvkey.ctl	25.06.2014 12:58:23	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\UpdateScrollbarBeforeKeyEvent.vi	25.06.2014 09:47:04	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\UpdateListBoxAfterKeyEvent.vi	25.06.2014 09:47:04	16
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\GoTo.vi	25.06.2014 09:47:04	27
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\TagReturnType.ctl	25.06.2014 12:58:19	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Check Special Tags.vi	25.06.2014 12:58:23	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Set String Value.vi	25.06.2014 12:58:19	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	25.06.2014 12:58:19	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Error Code Database.vi	25.06.2014 12:58:25	36
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\whitespace.ctl	25.06.2014 12:58:22	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Trim Whitespace.vi	25.06.2014 12:58:24	33
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	25.06.2014 15:07:09	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Find Tag.vi	25.06.2014 12:58:19	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Set Bold Text.vi	25.06.2014 12:58:18	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Format Message String.vi	25.06.2014 12:58:19	197
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\ErrWarn.ctl	25.06.2014 12:58:19	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	25.06.2014 12:58:23	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Details Display Dialog.vi	25.06.2014 12:58:22	310
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	25.06.2014 12:58:19	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	25.06.2014 12:58:23	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	25.06.2014 12:58:19	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Get String Text Bounds.vi	25.06.2014 12:58:23	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	25.06.2014 12:58:25	588
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Three Button Dialog.vi	25.06.2014 12:58:19	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\GetHelpDir.vi	25.06.2014 12:58:19	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\BuildHelpPath.vi	25.06.2014 12:58:19	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Not Found Dialog.vi	25.06.2014 12:58:23	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	25.06.2014 12:58:23	347
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\General Error Handler.vi	25.06.2014 15:07:02	201
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Read Lines From File.vi	25.06.2014 17:49:48	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\file.llb\Read From Spreadsheet File (string).vi	25.06.2014 17:49:48	57
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Simple Error Handler.vi	25.06.2014 15:07:02	44
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\tdmsutil.llb\TDMS - File Viewer.vi	25.06.2014 08:07:48	483
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Files\Main Files\Create Registry.vi	18.06.2015 09:34:47	4
+
+[Output File Version]
+Create Registry.exe	1.0.0.9
+
+[Output Files]
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Build\Main Applications\Create Registry.exe	22.06.2015 15:47:37
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Build\Main Applications\Create Registry.aliases	22.06.2015 15:47:36
+C:\Ehsan Temp Folder\TFS\Change Management Tool\Build\Main Applications\Create Registry.ini	22.06.2015 15:47:36
+
+22.06.2015 15:47:37
