@@ -7,6 +7,8 @@ Imagine, you are doing a simulator-based testing of control system software for 
 
 This application aims to solve this manual, combersome task.
 
+See the Wiki pages for more details.
+
 [![image.png](https://s31.postimg.cc/pjzura9x7/image.png)](https://postimg.cc/image/gc7mal2uv/)
 
 ## Installer and Executable
