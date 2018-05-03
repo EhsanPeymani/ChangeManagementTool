@@ -213,7 +213,6 @@
 			<Item Name="Update Registry" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{4154C4E0-CD88-4C75-80DD-36964A4E4A84}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{10D838C1-0295-49FF-BC1B-3D4C71AA1DBC}</Property>
-				<Property Name="App_INI_itemID" Type="Ref">/My Computer/Main VIs/Configuration Files/Update Registry.ini</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{1798C8D7-E08F-464A-A933-F94A73B831F4}</Property>
@@ -234,7 +233,7 @@ v2.0.2 improving rejecting the new configuration. After reject, it goes to idle 
 				<Property Name="Bld_previewCacheID" Type="Str">{AC009067-71F9-4130-B52F-AA3369C011E9}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">../Build/Main Applications/Build Logs/HIL Test Environment Change Management_Update Registry_log.txt</Property>
 				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Update Registry.exe</Property>
@@ -247,13 +246,16 @@ v2.0.2 improving rejecting the new configuration. After reject, it goes to idle 
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/Icons/change_management.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C87E1053-0510-494A-8E80-8D6BC66C8871}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{29090A37-568C-4384-92E0-88CDFE3F1973}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main VIs/Update Registry.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Documentation/Change Management System Guide.mht</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">MHWirth</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">To register changes/updates in the HIL test setup, and add comments
 Help was set up.</Property>
@@ -660,6 +662,44 @@ Help was set up.</Property>
 				<Property Name="TgtF_productName" Type="Str">Interface </Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F83DD41D-58B3-4DAB-9E35-F96A4A1E3B39}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Utility 6.exe</Property>
+			</Item>
+			<Item Name="UpdateRegistryInstaller" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">c:\ChangeManagementTool</Property>
+				<Property Name="Destination[0].path" Type="Path">/c/ChangeManagementTool</Property>
+				<Property Name="Destination[0].tag" Type="Str">{0049C1C7-5559-403E-B0D7-6768C96AADDA}</Property>
+				<Property Name="Destination[0].type" Type="Str">absFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="INST_author" Type="Str">Aker Solutions ASA</Property>
+				<Property Name="INST_buildLocation" Type="Path">../ChangeManagementTool/Build/UpdateRegistryInstaller</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">UpdateRegistryInstaller</Property>
+				<Property Name="INST_defaultDir" Type="Str">{0049C1C7-5559-403E-B0D7-6768C96AADDA}</Property>
+				<Property Name="INST_productName" Type="Str">Change Management Tool</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.1</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">14008036</Property>
+				<Property Name="MSI_distID" Type="Str">{849F8890-2201-432B-BC5E-EA278F300F65}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{72C84F45-C86B-4B43-AF7E-F1767C0497E4}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Install this tool for registrying component versions of your platform.</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Change Management Tool</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{0049C1C7-5559-403E-B0D7-6768C96AADDA}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{0049C1C7-5559-403E-B0D7-6768C96AADDA}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Update Registry.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Update Registry</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Change Management Tool</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{99D51309-CAF0-4BCA-851F-749D009ABA91}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">Update Registry</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Update Registry</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
