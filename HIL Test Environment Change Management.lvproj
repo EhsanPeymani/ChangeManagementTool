@@ -60,7 +60,6 @@
 			</Item>
 			<Item Name="Create Registry.vi" Type="VI" URL="../Files/Main Files/Create Registry.vi"/>
 			<Item Name="Update Registry.vi" Type="VI" URL="../Files/Main Files/Update Registry.vi"/>
-			<Item Name="Update Registry BK shall be removed later.vi" Type="VI" URL="../Files/Main Files/Update Registry BK shall be removed later.vi"/>
 		</Item>
 		<Item Name="Documentation" Type="Folder" URL="../Files/Documentation">
 			<Property Name="NI.DISK" Type="Bool">true</Property>

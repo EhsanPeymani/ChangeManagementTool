@@ -1,0 +1,38 @@
+Simulator;Interface;Control System;Drill View;Operator Chair;Utility
+TFM Sim;HTV Simba IO Interface;HTV PLC;DV TFM;OC 1 left;Change Manag. Tool
+DDM Sim;DDM Simba IO Interface;DDM PLC;DV DDM;OC 1 Right;Data Logger
+GC Sim;GC Simba IO Interface;GC PLC;DV GC;OC 2 left;Data Viewer
+DW Sim;DW Simba IO Interface;RMC PLC;DV DW;OC 2 Right;DDS Server
+TIA Sim;;;DV Server;OC 3;OPC Client
+PS Sim;;;;OC 4;LabVIEW Client 1
+Wave Sim;;;;OC 5;LabVIEW Client 2
+;;;;OC 6;LabVIEW Client 3
+;;;;OC 7;LabVIEW Client 4
+;;;;OC 8;LabVIEW Client 5
+;;;;OC 9;LabVIEW Client 6
+;;;;OC 10;LabVIEW Client 7
+;;;;OC 11;LabVIEW Client 8
+;;;;OC 12;LabVIEW Client 9
+;;;;OC 13;LabVIEW Client 10
+;;;;OC 14;LabVIEW Client 11
+;;;;OC 15;LabVIEW Client 12
+;;;;OC 16;LabVIEW Client 13
+;;;;OC 17;LabVIEW Client 14
+;;;;OC 18;LabVIEW Client 15
+;;;;OC 19;
+;;;;OC 20;
+;;;;OC 21;
+;;;;OC 22;
+;;;;OC 23;
+;;;;OC 24;
+;;;;OC 25;
+;;;;OC 26;
+;;;;OC 27;
+;;;;OC 28;
+;;;;OC 29;
+;;;;OC 30;
+;;;;OC 31;
+;;;;OC 32;
+;;;;OC 33;
+;;;;OC 34;
+;;;;OC 35;
